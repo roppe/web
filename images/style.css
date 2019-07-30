@@ -596,9 +596,9 @@ text-decoration:underline;
 	}
 
 	.home-services-text p{
-	font-size:18px;
+	font-size:16px;
 	font-family: "Roboto";
-	text-align: center;
+	text-align: left;
 	color: #403f3f;
 	font-weight: 400;
 	margin-top: 20px;
@@ -694,7 +694,7 @@ text-decoration:underline;
 	}
 
 	.left-residential p{
-	font-size: 16px;
+	font-size: 15px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #ffffff;
@@ -722,7 +722,7 @@ text-decoration:underline;
 	}
 
 	.left-residential ul{
-
+     color: #ffffff;
 	}
 
 	.left-residential .btn-go-residential{
@@ -749,6 +749,7 @@ text-decoration:underline;
 	.right-res-img .cover-img{
 	width: 100%;
 	display: block;
+	margin-top: 40px;
 	}
 
 
@@ -768,14 +769,12 @@ text-decoration:underline;
 	}
 
 	.right-commercial .title-2{
-	font-size: 28px;
+	font-size: 26px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #ffffff;
 	font-weight: 600;
 	letter-spacing: 1px;
-	padding-bottom:15px;
-	padding-top: 15px;
 	text-transform: uppercase;
 	}
 
@@ -788,8 +787,17 @@ text-decoration:underline;
 
 	}
 
+	.right-commercial p span{
+	font-size: 14px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight: 600;
+
+	}
+
 	.right-commercial h6{
-	font-size: 17px;
+	font-size: 19px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #ffffff;
@@ -798,7 +806,7 @@ text-decoration:underline;
 	margin-top:25px;
 	}
 
-	.right-commercial ul li p{
+	.right-commercial .dots p{
 	font-size: 15px;
 	font-family: "Roboto";
 	text-align: left;
@@ -807,8 +815,23 @@ text-decoration:underline;
 	margin-bottom: 2px;
 	}
 
-	.right-commercial ul li{
+	.dots{
+	color: #ffffff;
+	list-style-type:circle !important;
+	margin-top: 15px;
+	width: 38%;
+	}
+
+	.right-commercial .dots li{
   display: inline;
+   list-style-type:circle !important;
+	}
+
+	.right-commercial .dots li img{
+		float: left;
+		display: block;
+		margin-right: 10px;
+		margin-top: 3px;
 	}
 
 	.right-commercial .btn-go-commercial{
@@ -832,7 +855,7 @@ text-decoration:underline;
 	}
 
 	.left-commercial-pic{
-		padding-top: 20px;
+		padding-top: 50px;
 	}
 
 
@@ -953,7 +976,38 @@ text-decoration:underline;
 	color: #403f3f;
 	font-size: 14px;
 	text-align: center;
+
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 	}
+
+	#nyarea-pest .inner-ny .phone-text{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:5px;
+	}
+
+	#nyarea-pest .inner-ny h6{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #403f3f;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 4px;margin-top: 4px;
+	}
+
+	#nyarea-pest .inner-ny h4{
+	font-family: 'Roboto';
+	font-weight: 700;
+	color: #0f6096;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 5px;margin-bottom: 5px;
+
+	}
+
 
 	/* Contact section */
 
@@ -1136,7 +1190,7 @@ text-decoration:underline;
 	.banner-residential .bannertrust .b-title{
 	font-family: "Roboto";
 	color: #0f6096;
-	font-size: 38px;
+	font-size: 32px;
     width: 100%;
     float: left;
 	font-weight: 700;
@@ -1180,7 +1234,7 @@ text-decoration:underline;
 	}
 
 	.content-residential p {
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Roboto";
     text-align: left;
     color: #403f3f;
@@ -1199,15 +1253,16 @@ text-decoration:underline;
    }
 
    .content-residential .small-headline{
-   	    font-family: "Roboto";
+   	     font-family: "Roboto";
     color: #0f6096;
-    font-size:18px;
+    font-size: 22px;
     width: 100%;
     float: left;
     font-weight: 400;
-    margin-top:0;
-    margin-bottom:20px;
+    margin-top: 0;
+    margin-bottom: 20px;
     margin-top: 25px;
+    line-height: 28px;
    }
 
 	.content-residential .list{
@@ -1215,11 +1270,11 @@ text-decoration:underline;
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 25px;
-    padding-left: 40px;
+    padding-left: 20px;
     color: #535353;
     font-size: 16px;
     vertical-align: top;
-    width: 30%;
+    width: 44%;
 
 	}
 
@@ -1297,7 +1352,7 @@ text-decoration:underline;
 	}
 
 	.list li p{
-	  font-size: 16px;
+	  font-size: 15px;
     font-family: "Roboto";
     text-align: left;
     font-weight: 500;
@@ -1321,7 +1376,7 @@ text-decoration:underline;
 	
     display: block;
     width: 47%;
-    height: 250px;
+    margin-bottom: 20px;
     float: left;
     margin-right:25px;
 	}
@@ -1498,7 +1553,7 @@ text-decoration:underline;
 	}
 
 	.content-commercial p {
-	font-size: 15px;
+	font-size: 14px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #403f3f;
@@ -1522,7 +1577,7 @@ text-decoration:underline;
 	font-size:18px;
 	width: 100%;
 	float: left;
-	font-weight: 400;
+	font-weight: 600;
 	margin-top:0;
 	margin-bottom:20px;
 	margin-top: 25px;
@@ -1533,11 +1588,11 @@ text-decoration:underline;
 	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 25px;
-	padding-left: 40px;
+	padding-left:20px;
 	color: #535353;
-	font-size: 16px;
+	font-size: 15px;
 	vertical-align: top;
-	width: 30%;
+	width: 44%;
 
 	}
 
@@ -1553,7 +1608,7 @@ text-decoration:underline;
 	}
 
 	.list-2 li p{
-	font-size: 16px;
+	font-size: 15px;
 	font-family: "Roboto";
 	text-align: left;
 	font-weight: 500;
@@ -1579,13 +1634,14 @@ text-decoration:underline;
 
 	display: block;
 	width: 47%;
-	height: 250px;
+	margin-bottom: 20px;
 	float: left;
 	margin-right:25px;
 	}
 
 	.commercial-small-img  li img{
 	border:2px solid #d6d2d2;
+	width: 100%;
 	}
 
 	.commercial-small-img  li:last-child{
@@ -1595,16 +1651,63 @@ text-decoration:underline;
 
 
 	/* new contact page design  */
+   #top-contact{
+	margin-top: 135px;
+	background-color: #fafafa;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 40px;
+	background-image: url(../images/lines-background.png);
+	background-size: cover;
+	}
+
+	#top-contact .top-contact-header{
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+	}
+
+     #top-contact .top-contact-header .box-text-c{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+	 #top-contact .top-contact-header .box-text-c h2{
+	font-size: 32px;
+	font-family: "Roboto";
+	text-align: center;
+	color: #2b52a2;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-top: 15px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+
+	}
+
+	 #top-contact .top-contact-header .box-text-c p{
+	 	    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #403f3f;
+    font-weight: 400;
+    margin-top: 20px;
+	 }
+
+
 
 
 	#main-contact-page{
 	padding-bottom: 30px;
-	padding-top: 50px;
+	padding-top:20px;
 	background-color:#fafafa;
 	border-top: 1px solid #eee;
 	background-image: url(../images/background-logo-v2.jpg);
 	background-size: cover;
-	margin-top: 165px;
+	margin-top:0;
 	}
 
 	#main-contact-page .form-main{
@@ -1677,7 +1780,6 @@ text-decoration:underline;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	border-top: 1px solid #e4e0e0;
 	padding-top: 15px;
 	}
 
@@ -1731,7 +1833,7 @@ text-decoration:underline;
 
 
 	#top-services .top-ser-content .box-text h2{
-	font-size: 38px;
+	font-size: 32px;
 	font-family: "Roboto";
 	text-align: center;
 	color: #2b52a2;
@@ -1784,7 +1886,7 @@ text-decoration:underline;
 	font-weight: 600;
 	letter-spacing: 1px;
 	padding-top: 15px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	}
 
@@ -1808,7 +1910,7 @@ text-decoration:underline;
 	}
 
 	#blue-services .blue-pictures{
-		padding-top: 50px;
+		padding-top: 70px;
 	}
 
 
@@ -1816,10 +1918,10 @@ text-decoration:underline;
 	#blue-services .blue-content .small-blue{
 	font-family: "Roboto";
 	color: #0f6096;
-	font-size:18px;
+	font-size:20px;
 	width: 100%;
 	float: left;
-	font-weight: 400;
+	font-weight: 600;
 	margin-top:0;
 	margin-bottom:20px;
 	margin-top: 25px;
@@ -1844,15 +1946,14 @@ text-decoration:underline;
 
 
 	.list-serv{
-
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 25px;
-	padding-left: 40px;
-	color: #535353;
-	font-size: 16px;
-	vertical-align: top;
-	width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    color: #535353;
+    font-size: 16px;
+    vertical-align: top;
+    width: 44%;
 
 	}
 
@@ -1867,44 +1968,16 @@ text-decoration:underline;
 	padding-top: 2px;
 	}
 
-	.list-serv p{
-	font-size: 14px;
+	.list-serv li > p{
+	font-size: 14px !important;
 	font-family: "Roboto";
 	text-align: left;
-	font-weight: 500;
+	font-weight: 700 !important;
 	margin-bottom: 2px;
-	color: #615f5f;
+	color: #5d5b5b !important;
 	}
 
-	#services-pests{
-	padding-top: 30px;
-	padding-bottom:10px;
-	border-top:1px solid #eee;
-	}
 
-	#services-pests .pest-content{
-
-	}
-
-	.pest-content h3{
-	font-family: "Roboto";
-	color: #0f6096;
-	font-size: 24px;
-	width: 100%;
-	text-align: left;
-	font-weight: 300;
-	margin-top:15px;
-	margin-bottom: 20px;
-	}
-
-	.pest-content p{
-	font-size: 15px;
-	font-family: "Roboto";
-	text-align: left;
-	color: #403f3f;
-	font-weight: 400;
-
-	}
 
 
 
@@ -2312,6 +2385,170 @@ margin-top:145px;
 
 @media (max-width: 767px) {
 	
+	.insects .txt-top{
+		width: 90%;
+		font-size: 15px;
+	}
+
+	.home-services-text h2{
+		font-size: 27px;
+	}
+
+	.right-bar {
+     float: left;
+	}
+
+	.right-commercial .title-2{
+		font-size: 20px;
+	}
+
+	.right-commercial h6{
+		font-size: 16px;
+	}
+
+	#contact-section .head-subtitle{
+		font-size: 13px;
+	}
+
+	#contact-section .head-title{
+		font-size: 17px;
+	}
+
+	.services-link {
+	background-color: #F6F6F6;
+	padding-top: 13px;
+	margin-bottom: 10px;
+	}
+
+	.left-residential .title-1{
+		font-size: 23px;
+	}
+
+	.left-residential p{
+		font-size: 14px;
+	}
+
+	.home-services-text p{
+		font-size: 14px;
+	}
+
+	.phoneblock img{
+		margin-top: 10px;
+	}
+
+	.features-text{
+		font-size: 16px;
+	}
+
+	.features-block{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+
+	.banner-heading{
+		font-size: 32px;
+	}
+
+	.banner-sub-text{
+		font-size: 16px;
+	}
+
+	#res-services .content-residential{
+		padding-top:0 !important;
+		padding-left: 10px !important;
+	}
+
+	.content-residential .first-title{
+	font-size: 22px;
+	}
+
+	.content-residential p{
+	font-size: 13px;
+	}
+
+	.content-residential .small-headline{
+		font-size: 19px;
+	}
+
+	.list li p{
+		font-size: 13px;
+	}
+
+
+	.banner-residential {
+    margin-top: 10px;
+	}
+
+	.banner-commercial {
+	margin-top: 10px;
+	}
+
+	#nyarea-pest .inner-ny .title{
+		font-size: 23px;
+	}
+
+	.list-2 {
+
+	margin-bottom: 25px;
+	padding-left: 10px;
+	color: #535353;
+	font-size: 14px;
+	vertical-align: top;
+	width: 45%;
+	}
+
+	.bugs-list h5{
+		font-size: 13px;
+	}
+
+	.bugs-list li img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 68%;
+    margin-bottom: 15px;
+	}
+
+	.list-2 li p{
+	font-size: 13px;
+	}
+
+	.bugs-list h4{
+	font-size: 18px;
+	}
+
+	.banner-commercial .bannertrust .c-title{
+	font-size: 25px;
+	}
+
+	.content-commercial .first-title{
+	font-size: 24px;
+	}
+
+	.content-commercial p{
+	font-size: 13px;
+	}
+
+	#top-contact{
+	margin-top: 12px !important;
+	}
+
+	#top-contact .top-contact-header .box-text-c p{
+	font-size: 14px;
+	padding-left: 20px;padding-right: 20px;
+	}
+
+	#main-contact-page .head-title{
+	font-size: 18px;
+	}
+
+	#main-contact-page .head-subtitle{
+	font-size: 14px;
+	}
+
+
+
 	.body-inner{
 	margin-top:0px;
 	}
