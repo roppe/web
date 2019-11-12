@@ -1217,7 +1217,7 @@
 	#pricing-section .sub-text-2{
 	display: block;
 	width: 100%;
-	border: 1px solid #bd8686;
+	/*border: 1px solid #bd8686;*/
 	padding-top: 20px;padding-bottom: 15px;
 	padding-left: 5px;
 	    margin-bottom: 4%;
@@ -1525,6 +1525,59 @@
 	background-color: #feb100;
 	color: #fafafa;
 	}
+
+
+	/* Tabb pricing monthly and annual*/
+
+		nav > .nav.nav-tabs{
+
+		border: none;
+		color:#fff;
+		background:#272e38;
+		border-radius:0;
+		font-size: 17px;
+		font-weight: 400;
+    font-family: "Roboto";
+		
+		}
+		nav > div a.nav-item.nav-link,
+		nav > div a.nav-item.nav-link.active
+		{
+		border: none;
+		padding: 18px 25px;
+		color:#fff;
+		background:#a2181d;
+		border-radius:0;
+
+		}
+
+		nav > div a.nav-item.nav-link.active:after
+		{
+		content: "";
+		position: relative;
+		bottom: -56px;
+		left: -10%;
+		border: 15px solid transparent;
+		border-top-color:#36C24E;
+		}
+		.tab-content{
+	
+		line-height: 25px;
+		border:none;
+		padding:0;
+		}
+
+		nav > div a.nav-item.nav-link:hover,
+		nav > div a.nav-item.nav-link:focus
+		{
+		border: none;
+		background: #36C24E;
+		color:#fff;
+		border-radius:0;
+		transition:background 0.20s linear;
+		}
+
+
 	
 	/*  MODAL-SUBSCRIBE FREE */
 	
