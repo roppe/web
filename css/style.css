@@ -1336,7 +1336,7 @@
 
 	.table-price .price-cost{
 	display: block;
-	margin-top:30px;
+	margin-top:40px;
 	width: 100%;
 	}
 
@@ -1376,6 +1376,7 @@
 	padding-left: 0;
 	margin-bottom: 40px;
 	padding-bottom:60px;
+	margin-top: 25px;
 	}
 
 	.price-list li{
@@ -1529,6 +1530,18 @@
 
 	/* Tabb pricing monthly and annual*/
 
+        #nav-tabContent .tab-title{
+	        font-family: "Roboto";
+	    font-weight: 300;
+	    color: #ffffff;
+	    font-size: 20px;
+	    text-transform: none;
+	    text-align: center;
+	    padding-bottom: 15;
+	    letter-spacing: 1px;
+	    margin-top: 15px;
+        }
+
 		nav > .nav.nav-tabs{
 
 		border: none;
@@ -1537,19 +1550,25 @@
 		border-radius:0;
 		font-size: 17px;
 		font-weight: 400;
-    font-family: "Roboto";
+    	font-family: "Roboto";
+    	width: 50%;
+    	margin-left: auto;margin-right: auto;
 		
 		}
+
+		nav > .nav.nav-tabs a:first-child{
+			background-color:#feb100;
+		}
+
 		nav > div a.nav-item.nav-link,
 		nav > div a.nav-item.nav-link.active
 		{
 		border: none;
 		padding: 18px 25px;
 		color:#fff;
-		background:#a2181d;
+		background:#1e3461;
 		border-radius:0;
-
-		}
+     	}
 
 		nav > div a.nav-item.nav-link.active:after
 		{
@@ -1571,7 +1590,7 @@
 		nav > div a.nav-item.nav-link:focus
 		{
 		border: none;
-		background: #36C24E;
+		background: #26c941;
 		color:#fff;
 		border-radius:0;
 		transition:background 0.20s linear;
