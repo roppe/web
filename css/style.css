@@ -1195,7 +1195,7 @@
 	font-size: 20px;
 	text-transform:none;
 	text-align: center;
-	padding-bottom:2%;
+	padding-bottom:15px;
 	letter-spacing: 1px;
 	margin-top: 15px;
 	}
@@ -1220,7 +1220,7 @@
 	/*border: 1px solid #bd8686;*/
 	padding-top: 20px;padding-bottom: 15px;
 	padding-left: 5px;
-	    margin-bottom: 4%;
+	    margin-bottom:20px;
 	}
 
 	#pricing-section .sub-text-2 h6{
@@ -1566,7 +1566,7 @@
 		border: none;
 		padding: 18px 25px;
 		color:#fff;
-		background:#1e3461;
+		background:#3c5790;
 		border-radius:0;
      	}
 
