@@ -1148,7 +1148,7 @@
 	}
 
 
-	/*  PRICING TABLE SECTION  */
+	/* ============= PRICING SECTION ON WEBSITE TABLE SECTION ============================ */
 
 	#pricing-section{
 	padding-top: 50px;
@@ -1168,7 +1168,7 @@
 	font-family: "Roboto";
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 42px;
+	font-size: 34px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -1186,9 +1186,9 @@
 	padding-bottom: 5px;
 	letter-spacing: 1px;
 	}
-	
+
 	#pricing-section .text-box-price h4{
-	
+
 	font-family: "Roboto";
 	font-weight: 300;
 	color: #ffffff;
@@ -1201,10 +1201,10 @@
 	}
 
 	#pricing-section .text-box-price h4 .fa{
-		font-size: 11px;
-		margin-right: 6px;
-		margin-left: 6px;
-		vertical-align:3px;
+	font-size: 11px;
+	margin-right: 6px;
+	margin-left: 6px;
+	vertical-align:3px;
 	}
 
 	#pricing-section .text-box-price .line-border-3{
@@ -1217,10 +1217,10 @@
 	#pricing-section .sub-text-2{
 	display: block;
 	width: 100%;
-	/*border: 1px solid #bd8686;*/
+	border: 1px solid #bd8686;
 	padding-top: 20px;padding-bottom: 15px;
 	padding-left: 5px;
-	    margin-bottom:20px;
+	margin-bottom:20px;
 	}
 
 	#pricing-section .sub-text-2 h6{
@@ -1270,24 +1270,24 @@
 	}
 
 	.table-price:nth-child(2){
-		animation: shadow-pulse 1s infinite;
+	animation: shadow-pulse 1s infinite;
 	}
 
 	@keyframes shadow-pulse
 	{
-	  0% {
-	    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
-	  }
-	  100% {
-	    box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
-	  }
+	0% {
+	box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+	}
+	100% {
+	box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+	}
 	}
 
 	.table-price:nth-child(2):hover{
-		 -webkit-animation: none;
+	-webkit-animation: none;
 	}
 
-	
+
 
 	.table-price .price-header{
 	background-color: #7DC383;
@@ -1374,8 +1374,8 @@
 	display: block;
 	float: left;
 	padding-left: 0;
-	margin-bottom: 40px;
-	padding-bottom:60px;
+	margin-bottom: 10px;
+	padding-bottom:10px;
 	margin-top: 25px;
 	}
 
@@ -1390,13 +1390,13 @@
 	}
 
 	.price-list li:hover{
-		background-color: #f2f2ef;
+	background-color: #f2f2ef;
 	}
 
 	.price-list li p{
 	text-align: center;
 	font-size: 13px;
-	 color: #787777;
+	color: #787777;
 	font-family: "Roboto";
 	font-weight:500;
 	margin-bottom: 0;
@@ -1413,12 +1413,12 @@
 	}
 
 	.price-list .not-included h6{
-	  text-align: center;
-    font-size: 14px;
-    color: #34495e;
-    font-family: "Roboto";
-    font-weight: 600;
-    margin-bottom: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #34495e;
+	font-family: "Roboto";
+	font-weight: 600;
+	margin-bottom: 0;
 	}
 
 	.price-list li .fa{
@@ -1440,17 +1440,17 @@
 
 	.btn-order .button-buy{
 	font-weight: 400;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0;
+	padding: 15px 20px;
+	border-radius: 0;
+	background: #36C24E;
+	position: absolute;
+	bottom: 0;
+	border: 0;
+	color: #ffffff;
 	}
 
 	.btn-order .button-buy:hover{
@@ -1463,17 +1463,17 @@
 
 	.btn-order .button-free{
 	font-weight: 400;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0;
+	padding: 15px 20px;
+	border-radius: 0;
+	background: #36C24E;
+	position: absolute;
+	bottom: 0;
+	border: 0;
+	color: #ffffff;
 	}
 
 	.btn-order .button-free:hover{
@@ -1485,17 +1485,17 @@
 	/* Button Subrscrine now Subscribe plus */
 	.btn-order .button-plus{
 	font-weight: 400;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0;
+	padding: 15px 20px;
+	border-radius: 0;
+	background: #36C24E;
+	position: absolute;
+	bottom: 0;
+	border: 0;
+	color: #ffffff;
 	}
 
 	.btn-order .button-plus:hover{
@@ -1508,17 +1508,17 @@
 	/* Button price Subrscrine now Subscribe pro */
 	.btn-order .button-pro{
 	font-weight: 400;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0;
+	padding: 15px 20px;
+	border-radius: 0;
+	background: #36C24E;
+	position: absolute;
+	bottom: 0;
+	border: 0;
+	color: #ffffff;
 	}
 
 	.btn-order .button-pro:hover{
@@ -1529,18 +1529,6 @@
 
 
 	/* Tabb pricing monthly and annual*/
-
-        #nav-tabContent .tab-title{
-	        font-family: "Roboto";
-	    font-weight: 300;
-	    color: #ffffff;
-	    font-size: 20px;
-	    text-transform: none;
-	    text-align: center;
-	    padding-bottom: 15;
-	    letter-spacing: 1px;
-	    margin-top: 15px;
-        }
 
 		nav > .nav.nav-tabs{
 
@@ -1576,7 +1564,6 @@
 		position: relative;
 		bottom: -56px;
 		left: -10%;
-		border: 15px solid transparent;
 		border-top-color:#36C24E;
 		}
 		.tab-content{
@@ -1595,6 +1582,7 @@
 		border-radius:0;
 		transition:background 0.20s linear;
 		}
+
 
 
 	
@@ -1713,7 +1701,7 @@
 	}
 
 
-	/*  MODAL POPUP -SUBSCRIBE PLUS 1040 */
+	/*  MODAL POPUP FOR PRICING TABLE -SUBSCRIBE PLUS 1040 */
 	
 	#pro-modal .pro-modal-content{
 	background-color: #fafafa;
@@ -1850,7 +1838,7 @@
 	}
 
 	
-	/*  MODAL POPUP  PLUS 1040 PRO  */
+	/*  MODAL POPUPS FOR PRICING TABLE  PLUS 1040 PRO  */
 	
 	#plus-modal .plus-modal-content{
 	background-color: #fafafa;
