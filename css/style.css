@@ -1580,7 +1580,7 @@
 	padding:0;
 	}
 
-	nav > div a.nav-item.nav-link:hover,
+
 	nav > div a.nav-item.nav-link:focus
 	{
 	border: none;
@@ -1588,6 +1588,10 @@
 	color:#fff;
 	border-radius:0;
 	transition:background 0.20s linear;
+	}
+
+	nav > div a.nav-item.nav-link:hover{
+		background: #1ca831;
 	}
 
 	/*  MONTHLY  PRICING - POPUPS MODALS ON SUBSCRIBE BUTTON */
