@@ -1151,8 +1151,8 @@
 	/* ============= PRICING SECTION ON WEBSITE TABLE SECTION ============================ */
 
 	#pricing-section{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: #ce2027;
 	background-image: url(../img/features-red-bckg.jpg);
 	background-size: cover;
@@ -1168,7 +1168,7 @@
 	font-family: "Roboto";
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 34px;
+	font-size: 41px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -1181,7 +1181,6 @@
 	font-weight: 400;
 	color: #ffffff;
 	font-size: 20px;
-	text-transform: uppercase;
 	text-align: center;
 	padding-bottom: 5px;
 	letter-spacing: 1px;
@@ -1293,15 +1292,15 @@
 	background-color: #7DC383;
 	display: block;
 	width:100%;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
 	position: relative;
 	}
 
 	.table-price .price-header .ribbon{
 	position: absolute;
-	top: 0;
-	left:-2px;
+	    top: -2px;
+    left: -3px;
 	}
 
 	.table-price .price-header h3{
@@ -1321,6 +1320,7 @@
 	font-size:19px;
 	text-transform: none;
 	text-align: center;
+	margin-bottom: 0;
 	}
 
 	.table-price .price-header h2{
@@ -1336,7 +1336,7 @@
 
 	.table-price .price-cost{
 	display: block;
-	margin-top:40px;
+	margin-top:10px;
 	width: 100%;
 	}
 
@@ -1356,7 +1356,9 @@
 	font-size: 15px;
 	color:#34495e;
 	font-family: "Roboto";
-	font-weight:400;
+	font-weight:500;
+	padding-bottom:3px;
+	margin-bottom: 0;
 	}	
 
 	.table-price .price-cost .setup-fee{
@@ -1365,6 +1367,8 @@
 	color:#5eba66;
 	font-family: "Roboto";
 	font-weight:500;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
 	}	
 
 	.table-price .price-list{
@@ -1376,7 +1380,7 @@
 	padding-left: 0;
 	margin-bottom: 10px;
 	padding-bottom:10px;
-	margin-top: 25px;
+	margin-top: 5px;
 	}
 
 	.price-list li{
@@ -1384,8 +1388,8 @@
 	display: block;
 	float: left;
 	width: 100%;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top:5px;
+	padding-bottom:5px;
 	border-top: 1px solid #e7e6e6;
 	}
 
@@ -1467,7 +1471,7 @@
 	text-transform: uppercase;
 	width: 100%;
 	margin: 0;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	border-radius: 0;
 	background: #36C24E;
 	position: absolute;
@@ -1489,7 +1493,7 @@
 	text-transform: uppercase;
 	width: 100%;
 	margin: 0;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	border-radius: 0;
 	background: #36C24E;
 	position: absolute;
@@ -1512,7 +1516,7 @@
 	text-transform: uppercase;
 	width: 100%;
 	margin: 0;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	border-radius: 0;
 	background: #36C24E;
 	position: absolute;
@@ -1528,63 +1532,65 @@
 	}
 
 
-	/* Tabb pricing monthly and annual*/
+	/* Tabbs- pricing:; monthly and annual*/
 
-		nav > .nav.nav-tabs{
+	nav > .nav.nav-tabs{
 
-		border: none;
-		color:#fff;
-		background:#272e38;
-		border-radius:0;
-		font-size: 17px;
-		font-weight: 400;
-    	font-family: "Roboto";
-    	width: 50%;
-    	margin-left: auto;margin-right: auto;
-		
-		}
-
-		nav > .nav.nav-tabs a:first-child{
-			background-color:#feb100;
-		}
-
-		nav > div a.nav-item.nav-link,
-		nav > div a.nav-item.nav-link.active
-		{
-		border: none;
-		padding: 18px 25px;
-		color:#fff;
-		background:#3c5790;
-		border-radius:0;
-     	}
-
-		nav > div a.nav-item.nav-link.active:after
-		{
-		content: "";
-		position: relative;
-		bottom: -56px;
-		left: -10%;
-		border-top-color:#36C24E;
-		}
-		.tab-content{
-	
-		line-height: 25px;
-		border:none;
-		padding:0;
-		}
-
-		nav > div a.nav-item.nav-link:hover,
-		nav > div a.nav-item.nav-link:focus
-		{
-		border: none;
-		background: #26c941;
-		color:#fff;
-		border-radius:0;
-		transition:background 0.20s linear;
-		}
+	border: none;
+	color:#fff;
+	background:#272e38;
+	border-radius:0;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: "Roboto";
+	width: 50%;
+	margin-left: auto;margin-right: auto;
 
 
+	}
 
+	nav > .nav.nav-tabs a:first-child{
+	background-color:#feb100;
+	}
+
+	nav > div a.nav-item.nav-link,
+	nav > div a.nav-item.nav-link.active
+	{
+	border: none;
+	padding: 18px 25px;
+	color:#fff;
+	background:#3c5790;
+	border-radius:0;
+	}
+
+	nav > div a.nav-item.nav-link.active:after
+	{
+	content: "";
+	position: relative;
+	bottom: -56px;
+	left: -10%;
+	border: 15px solid transparent;
+	border-top-color:#36C24E;
+
+	}
+	.tab-content{
+
+	line-height: 25px;
+	border:none;
+	padding:0;
+	}
+
+	nav > div a.nav-item.nav-link:hover,
+	nav > div a.nav-item.nav-link:focus
+	{
+	border: none;
+	background: #26c941;
+	color:#fff;
+	border-radius:0;
+	transition:background 0.20s linear;
+	}
+
+	/*  MONTHLY  PRICING - POPUPS MODALS ON SUBSCRIBE BUTTON */
 	
 	/*  MODAL-SUBSCRIBE FREE */
 	
@@ -1973,7 +1979,353 @@
 	 font-size: 26px;
 	 vertical-align: -2px;
 	}
+   
+   /*Annualy Pricing Popups Modals on subscibe button */
 
+    /*Annualy Free PopUp */
+
+   #annually-free-modal .free-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	#annually-free-modal .free-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#annually-free-modal .free-modal-body .text-headline{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#annually-free-modal .free-modal-body h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:none; 
+	letter-spacing: 1px;
+	}
+	
+	#annually-free-modal .free-modal-body h3 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+	#annually-free-modal .free-modal-body .text-headline h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom:50px;
+	}
+	#annually-free-modal .free-modal-body .text-headline h4 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom: 35px;
+	}
+
+	#annually-free-modal .free-modal-body .text-headline h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size:16px;
+	color:#34495e;
+	text-align: center;
+	margin-bottom:5px;
+
+	}
+	
+	#annually-free-modal .free-modal-body .text-headline .code-txt{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ffffff;
+	text-align: center;
+	padding-bottom:5px;padding-top: 5px;
+	background: #ce2027;	
+	letter-spacing: 1px;
+	width: 40%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6px;
+	}
+
+	#annually-free-modal .free-modal-body{
+	padding-top: 0;
+	}
+	
+	#annually-free-modal .free-modal-body .subscribe-free-button{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0;
+    padding: 12px 5px;
+    border-radius: 0;
+    background:#36C24E;
+   	color: #ffffff;
+   	margin-top:16%;
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-bottom: 40px;
+	}
+	#annually-free-modal .free-modal-body .subscribe-free-button:hover{
+	cursor: pointer;
+	background: #feb100;;
+	}
+
+	#annually-free-modal .free-modal-body .subscribe-free-button .fa{
+	margin-left:10px;
+	}
+
+	/* Annualy Plus Popup Modal*/
+
+	#annually-plus-modal .free-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	#annually-plus-modal .free-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#annually-plus-modal .free-modal-body .text-headline{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#annually-plus-modal .free-modal-body h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:none; 
+	letter-spacing: 1px;
+	}
+	
+	#annually-plus-modal .free-modal-body h3 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+	#annually-plus-modal .free-modal-body .text-headline h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom:50px;
+	}
+	#annually-plus-modal .free-modal-body .text-headline h4 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom: 35px;
+	}
+
+	#annually-plus-modal .free-modal-body .text-headline h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size:16px;
+	color:#34495e;
+	text-align: center;
+	margin-bottom:5px;
+
+	}
+	
+	#annually-plus-modal .free-modal-body .text-headline .code-txt{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ffffff;
+	text-align: center;
+	padding-bottom:5px;padding-top: 5px;
+	background: #ce2027;	
+	letter-spacing: 1px;
+	width: 40%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6px;
+	}
+
+	#annually-plus-modal .free-modal-body{
+	padding-top: 0;
+	}
+	
+	#annually-plus-modal .free-modal-body .subscribe-free-button{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0;
+    padding: 12px 5px;
+    border-radius: 0;
+    background:#36C24E;
+   	color: #ffffff;
+   	margin-top:16%;
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-bottom: 40px;
+	}
+	#annually-plus-modal .free-modal-body .subscribe-free-button:hover{
+	cursor: pointer;
+	background: #feb100;;
+	}
+
+	#annually-plus-modal .free-modal-body .subscribe-free-button .fa{
+	margin-left:10px;
+	}
+
+
+		/* Annualy Plus Popup Modal*/
+
+	#annually-pro .free-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	#annually-pro .free-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#annually-pro .free-modal-body .text-headline{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#annually-pro .free-modal-body h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:none; 
+	letter-spacing: 1px;
+	}
+	
+	#annually-pro .free-modal-body h3 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+	#annually-pro .free-modal-body .text-headline h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom:50px;
+	}
+	#annually-pro .free-modal-body .text-headline h4 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom: 35px;
+	}
+
+	#annually-pro .free-modal-body .text-headline h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size:16px;
+	color:#34495e;
+	text-align: center;
+	margin-bottom:5px;
+
+	}
+	
+	#annually-pro .free-modal-body .text-headline .code-txt{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ffffff;
+	text-align: center;
+	padding-bottom:5px;padding-top: 5px;
+	background: #ce2027;	
+	letter-spacing: 1px;
+	width: 40%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6px;
+	}
+
+	#annually-pro .free-modal-body{
+	padding-top: 0;
+	}
+	
+	#annually-pro .free-modal-body .subscribe-free-button{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0;
+    padding: 12px 5px;
+    border-radius: 0;
+    background:#36C24E;
+   	color: #ffffff;
+   	margin-top:16%;
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-bottom: 40px;
+	}
+	#annually-pro .free-modal-body .subscribe-free-button:hover{
+	cursor: pointer;
+	background: #feb100;;
+	}
+
+	#annually-pro .free-modal-body .subscribe-free-button .fa{
+	margin-left:10px;
+	}
+
+	/*end of pricing section and  popup modal */
 
 
 	/* multi discount section  */
