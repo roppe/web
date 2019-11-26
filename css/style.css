@@ -1268,24 +1268,24 @@
 	border: none;
 	}
 
-	.table-price:nth-child(2){
-	animation: shadow-pulse 1s infinite;
-	}
+		/*.table-price:nth-child(2){
+		animation: shadow-pulse 1s infinite;
+		}
 
-	@keyframes shadow-pulse
-	{
-	0% {
-	box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
-	}
-	100% {
-	box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
-	}
-	}
+		@keyframes shadow-pulse
+		{
+		0% {
+		box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+		}
+		100% {
+		box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+		}
+		}
 
-	.table-price:nth-child(2):hover{
-	-webkit-animation: none;
-	}
-
+		.table-price:nth-child(2):hover{
+		-webkit-animation: none;
+		}
+	     */
 
 
 	.table-price .price-header{
@@ -1299,8 +1299,8 @@
 
 	.table-price .price-header .ribbon{
 	position: absolute;
-	    top: -2px;
-    left: -3px;
+	    top:0;
+    left:0;
 	}
 
 	.table-price .price-header h3{
@@ -1440,6 +1440,8 @@
 	position: absolute;
 	bottom: 0;
 	margin-top:30px;
+	 outline: 0;
+    box-shadow: none!important;
 	}
 
 	.btn-order .button-buy{
@@ -1463,6 +1465,8 @@
 	color: #fafafa;
 	}
 
+	
+
 	/* Button Subrscrine now Free */
 
 	.btn-order .button-free{
@@ -1478,6 +1482,10 @@
 	bottom: 0;
 	border: 0;
 	color: #ffffff;
+
+    outline: 0;
+    box-shadow: none!important;
+    
 	}
 
 	.btn-order .button-free:hover{
@@ -1500,6 +1508,8 @@
 	bottom: 0;
 	border: 0;
 	color: #ffffff;
+	outline: 0;
+    box-shadow: none!important;
 	}
 
 	.btn-order .button-plus:hover{
@@ -1523,6 +1533,10 @@
 	bottom: 0;
 	border: 0;
 	color: #ffffff;
+	
+    outline: 0;
+    box-shadow: none!important;
+    
 	}
 
 	.btn-order .button-pro:hover{
@@ -1538,7 +1552,6 @@
 
 	border: none;
 	color:#fff;
-	background:#272e38;
 	border-radius:0;
 	font-size: 17px;
 	font-weight: 400;
@@ -1551,6 +1564,11 @@
 
 	nav > .nav.nav-tabs a:first-child{
 	background-color:#feb100;
+
+	}
+
+	nav > .nav.nav-tabs a:last-child{
+	background-color:#3c5790;;
 	}
 
 	nav > div a.nav-item.nav-link,
@@ -1559,7 +1577,6 @@
 	border: none;
 	padding: 18px 25px;
 	color:#fff;
-	background:#3c5790;
 	border-radius:0;
 	}
 
@@ -1573,6 +1590,7 @@
 	border-top-color:#36C24E;
 
 	}
+
 	.tab-content{
 
 	line-height: 25px;
@@ -1584,14 +1602,15 @@
 	nav > div a.nav-item.nav-link:focus
 	{
 	border: none;
-	background: #26c941;
+	background: #36C24E;
 	color:#fff;
 	border-radius:0;
 	transition:background 0.20s linear;
 	}
 
 	nav > div a.nav-item.nav-link:hover{
-		background: #1ca831;
+		background: #32c94b;
+	
 	}
 
 	/*  MONTHLY  PRICING - POPUPS MODALS ON SUBSCRIBE BUTTON */
@@ -2100,6 +2119,8 @@ text-transform: uppercase;
 	margin-left:10px;
 	}
 
+
+
 	/* Annualy Plus Popup Modal*/
 
 	#annually-plus-modal .free-modal-content{
@@ -2186,7 +2207,7 @@ text-transform: uppercase;
 	}
 
 	#annually-plus-modal .free-modal-body{
-	padding-top: 0;
+	padding: 0;
 	}
 	
 	#annually-plus-modal .free-modal-body .subscribe-free-button{
@@ -2212,6 +2233,50 @@ text-transform: uppercase;
 
 	#annually-plus-modal .free-modal-body .subscribe-free-button .fa{
 	margin-left:10px;
+	}
+
+	#annually-plus-modal .free-modal-body .banner-call{
+	width: 100%;
+	display: block;
+	float: left;
+	background-color:#ce2027;
+	padding-top: 20px;padding-bottom: 20px;
+	margin-top:35px;
+	}
+	
+	#annually-plus-modal .free-modal-body .banner-call h5{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	#annually-plus-modal .free-modal-body .banner-call h5 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	#annually-plus-modal .free-modal-body .banner-call h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase;
+	margin-bottom: 0; 
+	}
+
+	#annually-plus-modal .free-modal-body .banner-call .fa{
+	 margin-left: 12px;
+	 margin-right: 12px;
+	 font-size: 26px;
+	 vertical-align: -2px;
 	}
 
 
@@ -2301,7 +2366,7 @@ text-transform: uppercase;
 	}
 
 	#annually-pro .free-modal-body{
-	padding-top: 0;
+	padding: 0;
 	}
 	
 	#annually-pro .free-modal-body .subscribe-free-button{
@@ -2327,6 +2392,50 @@ text-transform: uppercase;
 
 	#annually-pro .free-modal-body .subscribe-free-button .fa{
 	margin-left:10px;
+	}
+
+	#annually-pro .free-modal-body .banner-call{
+	width: 100%;
+	display: block;
+	float: left;
+	background-color:#ce2027;
+	padding-top: 20px;padding-bottom: 20px;
+	margin-top:35px;
+	}
+	
+	#annually-pro .free-modal-body .banner-call h5{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	#annually-pro .free-modal-body .banner-call h5 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	#annually-pro .free-modal-body .banner-call h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase;
+	margin-bottom: 0; 
+	}
+
+	#annually-pro .free-modal-body .banner-call .fa{
+	 margin-left: 12px;
+	 margin-right: 12px;
+	 font-size: 26px;
+	 vertical-align: -2px;
 	}
 
 	/*end of pricing section and  popup modal */
