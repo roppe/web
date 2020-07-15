@@ -1,0 +1,2620 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR NY IPHONE REPAIR WEBSITE
+ * 
+ */
+
+
+/* Google Fonts - OPEN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+    .navbar-toggler .navbar-toggler-icon .fa{
+    font-size: 30px;
+    display: block !important;
+    color: #e69906!important;
+    border:0;
+    }
+
+    .main-navigation .logo-header{
+    display: block;
+    float: left;
+    width: 360px !important;height:66px;
+    background:url(../img/bathtub-reglazing-nyc-logo.png) 0 0 no-repeat;
+    margin-right: 0 !important;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    }
+
+    .main-navigation{
+    background-color: #ffffff;
+    display: block;
+    padding-left: 0;padding-right: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #eee;
+    }
+
+    .main-navigation .nav-list .nav-link{
+ font-family: 'Roboto', serif;
+    font-weight:600;
+    color: #3f64b5;
+    text-transform:uppercase;
+    font-size: 13px;
+    letter-spacing: 1px !important;
+    margin-right:5px;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+    .nav-list .nav-item .btn-nav-book{
+    background-color: #f8791b;
+    padding-top: 8px;
+    padding-bottom:8px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius:2px;
+    padding-left: 20px;padding-right: 20px;
+    }
+
+    .nav-list .nav-item .gt-quote{
+       background-color: #4638b3;
+        /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+        padding-top: 8px;
+        padding-bottom:8px;
+        font-size: 16px;
+        color: #ffffff;
+        border-radius:2px;
+        padding-left: 20px;padding-right: 20px;
+        margin-right: 25px;
+        }
+
+        .nav-list .nav-item .gt-quote:hover{
+            background-color: #4638b3;
+            color: #fff !important;
+        }
+    
+
+    .nav-list .nav-item .btn-nav-book .fa{
+    margin-right: 7px;
+    font-size: 22px;
+    vertical-align: -3px;
+    }
+
+
+    .main-navigation .nav-list .nav-link:hover{
+    cursor: pointer;
+    color: #039be5;
+    }
+
+    .nav-list .nav-item .btn-nav-book:hover{
+    color: #fafafa !important;
+    background-color: #f8791b;
+    }
+
+    .nav-list .dropdown{
+ font-family: 'Roboto Slab', serif;
+    font-weight:600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right:10px;
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+    }
+
+    .nav-list .dropdown a{
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    }
+    .nav-list .dropdown a:hover{
+    text-decoration: none;
+    color: #069455;
+    }
+
+    .nav-list .dropdown a .caret{
+    padding-top: 10px;
+    }
+
+
+   .nav-list .dropdown .nav-dropdown{
+    border-radius: 0;
+    width:240px;
+    padding-bottom:0;
+      padding-top: 0;
+    }
+
+    .nav-list .dropdown .nav-dropdown li{
+    padding-top:8px;padding-bottom:8px;
+    display: inline !important;
+    float: left;
+    border-right: 1px solid #eee;
+    border-top:1px solid #eee; 
+    width:100%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(2n){
+        background-color: #f9f6f6;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(3n){
+    border-right: 0;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#cc8807;
+	}
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	 font-family: "Open Sans";
+    font-weight: 500;
+    border: 0;
+	 }
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+    	margin-left: 10px;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #e0e1e2;
+	cursor: pointer;
+	}
+	
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+	 outline: none !important;
+  box-shadow: none !important;
+	}
+   
+    .nav-list .dropdown .nav-dropdown li a img{
+   	display: block;
+   	margin-right: auto;
+   	margin-left: auto;
+    }
+
+    .nav-list .dropdown .nav-dropdown a p{
+ font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+     padding-left: 15px;padding-right: 15px;
+     margin-top:0;
+     text-align: left!important;
+     width: 100%;
+     margin-bottom:0;
+    }
+
+    .dropdown .nav-dropdown li a:hover{
+    color: #e69906;
+
+    }
+
+    .dropdown .nav-dropdown li a>p:hover{
+    color:#e69906;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:hover{
+    background: #f5f6f8;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a img {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a p{
+    text-align: center !important;
+    padding-top:7px;
+    color: #313433;
+    font-weight: 700;
+    }
+  
+
+     /* HOME PAGE */
+
+    #contact-section{
+
+    position: relative;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    /*background-color: #3f64b5;*/
+    background-size: cover;
+    background-image: url(../img/blue.png);
+    }
+
+    .left-image{
+        padding-left: 0;
+    }
+
+    
+    .left-image img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .home-info{
+    display: block;
+    padding-top:40px;
+    
+ 
+    }
+
+    .home-info h2{
+    margin-top: 15px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#fff;
+    font-weight:700;
+    letter-spacing:1px;  
+    margin-bottom: 5px;
+    border: 4px double #ffffff !important;
+    padding-top: 14px;padding-bottom: 14px;
+
+
+
+    
+    }
+
+    
+    .home-info  h3{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color:#fff;
+    font-weight:400;
+    margin-top: 20px;
+    margin-bottom:40px;
+
+    }
+
+    .home-info h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 40px;
+    }
+
+    .home-info h6 .fa{
+        color:#fff;
+    margin-right: 13px;
+    }
+
+    .home-go{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;padding-bottom: 10px;
+    width: 200px;
+    background-color:#84bc53 ;
+    display: block;
+    float: right;
+    margin-top: 45px;
+    }
+
+    .home-go:hover{
+    color: #fff;
+    }
+
+
+    
+
+
+
+
+
+  
+
+
+    /* HOME PAGE LAYOUT */
+
+    #info-description{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    }
+
+    .home-services-top{
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-right: 40px;
+    border: 4px double #d6d7d9 !important;
+    margin-top: 25px;
+    position: relative;
+    }
+
+    .home-services-top h3{
+
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .home-services-top h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #333;
+        /* color: #3f64b5; */
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 0;
+
+    }
+
+    .home-services-top  p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 5px;
+        width: 100%;
+    }
+
+
+    .home-services-top  h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#273a44;
+    font-size: 16px;
+    text-align: left;
+    }
+
+    .inner-button{
+
+    font-weight: 600;
+
+    color:#fff;
+    background-color:  #3f64b5; 
+    font-size: 16px;
+    text-align: center;
+    margin-top:35px;
+    margin-bottom:30px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    }
+
+    .inner-button:hover{
+    color: #fff;
+    }
+
+    
+
+
+    .services-image{
+    padding-right: 0;
+    padding-left:0;
+    }
+
+
+    .services-image img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+
+
+
+    /* Banner call us now  */
+    
+    .banner-call{
+    padding-top:0;padding-bottom: 0;
+    background-color: #fafafa;
+   /* background: url(../img/green-lines.png);*/
+    background-repeat:repeat-x;
+    width: 100%;
+    background-image: -webkit-linear-gradient(0deg, #ff544f 0%, rgba(241, 199, 24, 0.99608) 100%);
+    }
+
+    .banner-call .call-left h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+     
+    }
+
+    .banner-call .call-left h5{
+    font-family: 'Open Sans';
+    font-weight: 00;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+     text-shadow: 0px 1px #000;
+    }
+
+    .banner-call .call-left h5 span a{
+       font-family: 'Open Sans';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 0px 1px #000;
+    border: 2px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px;margin-left: 10px;
+  
+    }
+
+    .banner-call .call-left h5 span a .fa {
+    margin-left: 10px;margin-right: 8px;
+    font-size: 30px;
+    color: #fff;
+    }
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+
+
+    
+
+
+    /* BEFORE AFTER GALLERY */
+
+    .other-services {
+        padding-top: 35px;
+        padding-bottom: 50px;
+        background: #fff;
+        text-align: center;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    .other-services .h-title1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #f8791b;
+        font-size: 42px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    
+    }
+
+    .other-services .txt-title-1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #f8791b;
+        font-size: 20px;
+        text-align: center;
+        margin-top:0;
+        margin-bottom: 30px;
+    }
+
+    .box-gallery{
+        margin-bottom: 20px;
+    }
+
+    
+    /* BEFORE AFTER GALLERY */
+
+    .other-services {
+        padding-top: 35px;
+        padding-bottom: 50px;
+        background: #fff;
+        text-align: center;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    .other-services .h-title1 {
+        font-family: "Roboto";
+        font-weight: 300;
+        color: #f8791b;
+        font-size: 42px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    
+    }
+
+    .other-services .txt-title-1 {
+        font-family: "Roboto";
+        font-weight: 300;
+        color: #f8791b;
+        font-size: 20px;
+        text-align: center;
+        margin-top:0;
+        margin-bottom: 30px;
+    }
+
+    .box-gallery{
+        margin-bottom: 20px;
+    }
+
+    
+ 
+   
+
+        /* SECTION SERVICES*/
+
+        #section-services{
+        padding-top: 40px;
+        padding-bottom: 25px;
+        border-top:1.5px solid  #eee ;
+        border-bottom:1.5px solid  #eee ;
+        background-color: #fafafa;
+        }
+
+        #section-services .left-one .t-1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #333;
+        font-size: 36px;
+        text-align: left;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom:20px;
+        margin-top: 30px;
+
+        }
+
+        .left-one .btn-5{
+            font-weight: 600;
+            color: #fff;
+            background-color: #3f64b5;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 45px;
+            margin-bottom: 30px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+            display: block;
+            float: left;
+            width: 220px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+
+        #section-services .left-one p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 16px;
+        text-align: left;
+        padding-right: 10px;
+        width: 100%;
+
+        }
+
+        #section-services .left-one{
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+        padding-left:10px;padding-right: 10px;
+        }
+
+    .other-list{
+    list-style-type: none;
+    padding-left: 35px;
+    margin-top:0;
+    }
+
+    .other-list li{
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 15px;
+    margin-right: 23px;
+    }
+
+    .other-list li img{
+    display: block;
+    }
+
+    .other-list li h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #3f64b5;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-top: 10px;
+    }
+
+    .other-list li p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 5px;
+    width: 100%;
+    padding-right: 10px;
+    }
+
+
+
+  #main-description {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    .info-service{
+        padding-left: 30px;
+        padding-top: 25px;
+        padding-right:0;
+        padding-bottom: 25px;
+        border: 4px double #d6d7d9 !important;
+
+    }
+
+    .info-service img{
+        display: block;
+        float:right;
+      
+        margin-left: 20px;
+    }
+
+    .info-service h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #333;
+        font-size: 32px;
+        text-align: left;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+
+    }
+
+    .info-service h3{
+        font-weight: 600;
+        color: #84bc53;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+
+
+        .info-service p{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 25px;
+       
+        }
+
+        .info-service h6{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+        color: #333;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 20px;
+        }
+
+        .info-service h6 .fa{
+        color: #3f64b5;
+        margin-right: 13px;
+        font-size: 9px;
+        vertical-align: 1px;
+        }
+
+        .sell-right-side img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        }
+
+
+    /* COLORS PAGE DESIGN */
+
+    .banner-cover-top{
+        padding-bottom:70px;
+        margin-top:120px;
+        background-color: #eee;
+        /*background-image: url(../img/ny-gray-background.png);*/
+        width: 100%;
+        background-size: cover;
+        background-position: center top;
+        position: relative;
+        height:205px;
+        }
+    
+        .banner-cover-top .text-headline h2 span{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            /* color: #f88936 !important; */
+            color: #333;
+            font-size: 45px;
+            text-align: left;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            font-family: 'Roboto Slab', serif
+    
+        }
+    
+    
+        .banner-cover-top .text-headline h6{
+            font-weight: 600;
+            color: #84bc53;
+            font-size: 17px;
+            text-align: left;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+        
+    
+        }
+
+        .banner-cover-top .text-headline h6 .line-3 {
+            border: 1.5px solid #84bc53;
+            display: block;
+            width: 50px;
+            float: left;
+            vertical-align: -25px;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+    
+    
+        .banner-cover-top .text-headline{
+        background-color:transparent;
+        margin-top: 40px;
+        padding-top: 15px;
+        }
+
+    /* OUR COLORS SECTION*/
+
+    .our-colors{
+    padding-top:40px;padding-bottom:40px;
+    }
+
+    .our-colors .c-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+
+    }
+
+    .c-holder{
+    margin-bottom: 30px;
+    }
+
+
+    .our-colors .c-holder img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    /* BATHTUB SERVICES */
+
+        .service-info{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+
+        .service-info .info h6{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #273a44;
+        font-size: 15px;
+        text-align: left;
+        }
+
+        .service-info .info h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+
+        color: #333;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+
+        }
+
+        .service-info .info h3{
+            font-weight: 600;
+            color: #333;
+            font-size: 18px;
+            text-align: left;
+            margin-top: 20px;
+            margin-bottom:15px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .service-info .info h5{
+            font-weight: 600;
+            color: #333;
+            font-size: 15px;
+            text-align: left;
+            padding-left:20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .service-info .info h5 .fa{
+          color: #84bc53;
+          margin-right: 8px;
+        }
+    
+    
+          
+
+        .info .go-button{
+
+        font-weight: 600;
+
+        color: #84bc53;
+        font-size: 16px;
+        text-align: left;
+        margin-top:35px;
+        margin-bottom:5px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        }
+
+        .info .go-button:hover{
+        color: #84bc53;
+        }
+
+        .info .go-button .line{
+        border: 2px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 10px;
+        margin-right: 20px;
+        }
+        
+
+        .section-process{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-size: cover;
+         background-image: url(../img/shine-buble.jpg);
+     
+        }
+
+        .process-text h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+
+        color: #333;
+        font-size: 28px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom:20px;
+        font-family: 'Roboto', sans-serif;
+
+        }
+
+        .process-text h2 img{
+            display:block;
+            margin-right: 10px;
+            float: left;
+            margin-top: -8px;
+        }
+
+        .process-text h4{
+        font-weight: 600;
+        color: #333;
+        font-size: 19px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+
+        }
+
+        .process-text h4 .line-4{
+        border: 1.5px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 10px;
+        margin-right: 20px;
+        }
+
+        .process-text h5{
+        font-weight: 500;
+        color: #333;
+        font-size: 15px;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        }
+
+        .process-text h5 .fa{
+        color: #3f64b5;
+        margin-right: 13px;
+        font-size: 9px;
+        vertical-align: 1px;
+        }
+
+        .process-text .btn-quote{
+        font-weight: 400;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        width: 200px;
+        display: block;
+        margin-top: 40px;
+        padding-bottom: 10px;padding-top: 10px;
+        font-family: 'Roboto', sans-serif; 
+        background-color:  #84bc53;
+        margin-left: 15px;
+        }
+
+
+        .why-us{
+            padding-top: 20px;
+            padding-bottom:20px;
+            background-color:#fafafa;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee; 
+        }
+
+        .fea-list img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60px;height: 60px;
+        }
+
+        .fea-list p{
+            list-style-type: none;
+            text-align: center;
+            font-family: 'Roboto', sans-serif; 
+            font-size: 14px;
+            margin-top: 15px;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+
+
+         /* Banner call us now  */
+    
+         .banner-antislip{
+        padding-top:0;padding-bottom: 0;
+        background-color: #fafafa;
+       /* background: url(../img/green-lines.png);*/
+        background-repeat:repeat-x;
+        width: 100%;
+        background-image: -webkit-linear-gradient(0deg, #84bc53 0%, rgb(100, 148, 58) 100%);
+        margin-top: 40px;
+        }
+    
+        .banner-antislip .call-left h4{
+            font-family: 'Roboto', sans-serif; 
+        font-weight: 700;
+        color: #fafafa;
+        font-size: 33px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+         
+        }
+
+        .banner-antislip .call-left p{
+            font-family: 'Roboto', sans-serif; 
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+        }
+    
+        .banner-antislip .call-left h5{
+            font-family: 'Roboto', sans-serif; 
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 17px;
+        margin-top: 10px;
+        text-align: left;
+       
+        }
+    
+      
+    
+        .banner-antislip .call-left h5  .fa {
+        margin-left: 10px;margin-right: 8px;
+        font-size:15px;
+        color: #fff;
+        }
+
+        .banner-antislip .call-left{
+          padding: 30px;
+        }
+
+        .banner-antislip .go-button{
+
+            font-weight: 600;
+    
+            color: #fff;
+            font-size: 18px;
+            text-align: left;
+            margin-top:35px;
+            margin-bottom:5px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+            display: block;
+            float:right;
+            }
+    
+            .banner-antislip .go-button:hover{
+            color: #fafafa;
+            }
+    
+            .banner-antislip .go-button .line{
+            border: 2px solid #fff;
+            display: block;
+            width: 50px;
+            float: left;
+            vertical-align: -25px;
+            margin-top: 10px;
+            margin-right: 20px;
+            }
+
+
+    /* our gallery*/
+
+    .our-gallery{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+
+    .our-gallery h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* color: #f88936 !important; */
+    color: #333;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    }
+
+    
+    .our-gallery h3 {
+        font-weight: 600;
+        color: #333;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom:2px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+
+    }
+
+    .our-gallery h3 .line-3 {
+        border: 1.5px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 7px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+
+    .covid-update{
+        padding: 35px;
+        background-color: #fafafa;
+        border: 1.5px solid #eee;
+        position:relative;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .covid-update h3{
+        font-weight: 600;
+        background-color: #84bc53; 
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom:2px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        position: absolute;
+        top: -25px;
+        left: 20%;
+        width: 60%;
+        padding-top: 10px;padding-bottom: 10px;
+
+    }
+
+    .covid-update p{
+    font-weight:400;
+
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom:2px;
+
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+    }
+
+    .covid-update ul li{
+    list-style-type: d;
+
+    }
+
+    .covid-update ul {
+    padding-left: 45px;
+    }
+
+    .covid-update ul li h6{
+    font-weight:500;
+
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom:2px;
+
+    font-family: 'Roboto', sans-serif;
+
+    }
+
+    .covid-update ul h4{
+    font-weight:500;
+
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom:10px;
+
+    font-family: 'Roboto', sans-serif;
+
+    }
+
+
+    /* other services */
+
+    .top-other{
+        padding-top: 35px;padding-bottom: 35px;
+    }
+
+    .top-other h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        /* color: #f88936 !important; */
+        color: #333;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+
+    .top-other p{
+        font-weight: 400;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    }
+
+    .top-other ul li{
+    display: inline-block;
+     margin-right: 20px;
+    list-style-type: circle;
+
+    }
+
+    .top-other ul  h4 {
+        font-weight: 500;
+        color: #333;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .top-other ul {
+    padding-left: 10px;
+    }
+
+    .top-other ul li h6{
+    font-weight:500;
+
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom:2px;
+
+    font-family: 'Roboto', sans-serif;
+
+    }
+
+    .top-other ul li h6 .fa{
+        color:#84bc53;  
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .other-main{
+        padding-bottom: 40px;
+    }
+
+    .other-main .in-box{
+        border: 4px double #d6d7d9 !important;
+        padding: 30px;
+    }
+
+    .ser-other .in-box p{
+        font-weight: 400;
+        color: #333;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom:10px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%; 
+        padding-left: 10px;padding-left: 15px;
+    }
+
+    .ser-other .in-box h3{
+        font-weight: 600;
+    color: #333;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+
+    }
+
+    .ser-other {
+        margin-bottom: 20px;
+    }
+
+    
+
+    .ser-other img{
+        display: block;
+      
+        float: left;
+    }
+    
+    
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+	  footer{
+        background:#111019;
+        padding-top:45px;
+        padding-bottom:0
+    
+        }
+    
+        footer .logo-left {
+        display: block;
+        float: left;
+        list-style-type: none;
+        padding-left: 0;
+        width: 100%;
+        margin-top: 22px;
+        }
+    
+         footer .text-rights{
+        text-align: center;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 400;
+        color: #7b8084;
+        font-size: 11px;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        padding-left: 10px;
+        margin-top:20px;
+        border-top: 1px solid #1d2428;
+        padding-top: 10px;
+        letter-spacing: 1px;
+         }
+    
+         .social-footer{
+            display: block;
+            float: left;
+            list-style-type: none;
+            width: 80%;
+        
+            }
+        
+            .social-footer  h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: left; 
+            letter-spacing: 1px; 
+            border-bottom: 1px solid #fff;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            width:60%;
+            }
+        
+            .social-footer  h3 .fa{
+            margin-right: 15px;
+            font-size: 14px
+            }
+        
+            .social-footer li{
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            }
+        
+            .social-footer li p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #dee1e3;
+            font-size: 13px;
+        
+            letter-spacing: 1px; 
+            margin-bottom: 3px; 
+            }
+        
+            .social-footer li p span{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            color: #dee1e3;
+            font-size: 13px;
+            text-align: center; 
+            letter-spacing: 1px; 
+            margin-bottom: 3px; 
+            text-align: center;
+            }
+            
+          
+    
+    
+    
+    
+          /* Footer contact information */
+    
+        .adress-nav{
+        list-style-type:none;
+        float: right;
+        }
+    
+    
+        .adress-nav h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        border-bottom: 1px solid #fafafa;
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+        width: 95%;
+        }
+    
+    
+        .adress-nav li a {
+        font-family: 'Archivo Narrow', sans-serif;
+           font-size: 18px;
+         font-weight: 600;
+        color: #ffffff;
+        text-align: left; 
+        letter-spacing: 1px; 
+        margin-bottom: 3px;
+        }
+
+        .adress-nav li .footer-quote{
+            font-size: 15px;
+            font-weight: 500;
+           color: #ffffff;
+           text-align: center; 
+           border: 1px solid #fff;
+        font-family: 'Roboto', sans-serif;
+           padding-top: 9px;padding-bottom: 9px;
+           padding-left: 20px;padding-right: 20px;
+           background-color: #3f64b5;
+        }
+    
+        .adress-nav li p {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: left;
+        float: left; 
+        letter-spacing: 1px; 
+        margin-bottom: 3px;
+        margin-right: 10px;
+        }
+    
+         .adress-nav li img{
+          display: block;
+          margin-right: 10px;
+          float: left;
+         }
+    
+          .adress-nav li:last-child{
+            margin-top: 20px;
+          }
+    
+    
+    
+        .adress-nav li a .fa{
+         margin-right:11px;
+         font-size: 18px;
+         color:#ffffff;
+        }
+    
+        .adress-nav li a:hover{
+        cursor: pointer;
+        color: #fafafa;
+        text-decoration: none;
+        }
+
+        
+	.sub-footer{
+        display: block;
+        width: 100%;
+        padding-top:8px;padding-bottom:8px;
+        background-color:#0f0e17;
+        margin-top: 20px;
+        }
+    
+        .sub-footer .copy {
+            font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #d5d2d2 !important;
+        text-align: center;
+        display: block;
+        font-size: 11px;
+        float: right;
+        margin-top: 3px;
+        letter-spacing: 1px;
+        margin-bottom: 3px;
+        }
+    
+    
+
+    
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+    /* HOme Page banner section before after about  */
+
+    .banner-left-1{
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .banner-left-1 .img-fluid{
+   
+    }
+
+    .banner-right-3{
+     width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }   
+    
+    .banner-center-2 .txt-center{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    }
+
+
+    .banner-center-2 .txt-center h2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 26px;
+    margin-bottom:20px;
+    text-align: left;
+    }
+
+    .banner-center-2 .txt-center p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 14px;
+    text-align:left;
+    }
+
+    .banner-center-2 .button-go-services{
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width:190px;
+ font-family: 'Roboto Slab', serif;
+    font-weight:600;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color:#039BE5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #039BE5;
+    border-radius: 2px;
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+  
+
+    /* banner*/
+
+
+      .demo-box{
+    background-color:#253f59;
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: url(../img/orange-cover.png);
+    background-repeat: repeat-x;
+    }
+
+    .demo-box .box-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .demo-box .box-content h3{
+ font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color:#fff;
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+    .demo-box .box-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+
+    .demo-box .box-content .border-line-5{
+      border-bottom: 1px solid #fafafa;
+    width: 20%;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+
+    .box-content .btn-signup-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #203c53;
+    padding-top: 13px;padding-bottom: 13px;
+    border:0;border-radius: 0;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    }
+
+    .box-content .btn-signup-5:hover{
+        cursor: pointer;
+        /*background-color: #cc9d19;*/
+        color: #ffffff;
+    }
+
+
+
+    /* Home ABout us*/
+
+    .hm-about{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    }
+
+    .hm-inner h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color:#333;
+    /*color:#3f64b5;*/
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%; 
+    margin-bottom: 0;
+ 
+    }
+
+    .hm-inner h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#333;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%; 
+    margin-bottom: 30px;
+
+    }
+
+
+    .hm-inner p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#333;
+    font-size: 17px;
+    text-align:left;
+    padding-bottom: 5px;
+    width: 100%; 
+
+    }
+
+
+
+    /* NEW PAGE CSS : BATHTUB REGLAZING CSS */
+
+    #header-services {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    position: relative;
+    margin-top: 100px;
+ 
+
+    }
+
+
+    .header-inside{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right:0;
+    padding-bottom: 25px;
+    border: 4px double #d6d7d9 !important;
+    background-color: #f9fafd;
+
+    }
+
+    .header-inside img{
+    display: block;
+    float:right;
+
+    margin-left: 20px;
+    }
+
+    .header-inside h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 32px;
+    text-align: left;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+    }
+
+    .header-inside h3{
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .header-inside p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+
+    }
+
+    .header-inside h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    }
+
+    .header-inside h6 .fa{
+    color: #3f64b5;
+    margin-right: 13px;
+    font-size: 9px;
+    vertical-align: 1px;
+    }
+
+
+    .img-bef-aft{
+    padding-top: 35px;padding-bottom: 35px;
+    }
+
+    .img-bef-aft img{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .img-bef-aft .inner-button-5{
+
+        font-weight: 600;
+    
+        color:#fff;
+        background-color:  #3f64b5; 
+        font-size: 16px;
+        text-align: center;
+        margin-top:20px;
+        margin-bottom:10px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 260px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        }
+    
+        .img-bef-aft .inner-button-5:hover{
+        color: #fff;
+        }
+
+
+    /*faq */
+
+    #faq-top {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-right: 20px;
+        position: relative;
+        margin-top: 90px;
+    }
+
+    #faq-top h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #333;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom:5px;
+        margin-top: 15px;
+    }
+
+    #faq-top h3 {
+        font-weight: 400;
+        color: #333;
+        font-size:22px;
+        text-align:center;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    
+    
+    .qu-an{
+        padding:25px;
+        border: 4px double #d6d7d9 !important;
+        margin-bottom: 20px;
+    }
+
+    .qu-an h3{
+        font-weight: 600;
+        color: #333;
+        font-size: 19px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+
+    .qu-an h3 span{
+        font-weight: 600;
+        color: #3f64b5;
+        font-size: 20px;
+        text-align: left;
+        margin-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+
+    .qu-an  p{
+        font-weight: 400;
+        color: #333;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 5px;
+        padding-left: 20px;
+      
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+
+      /*contact page */
+
+    #contact-top {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    position: relative;
+    margin-top: 90px;
+    background: url(../img/cnt-bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    #contact-top h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom:5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    }
+
+    #contact-top h3 {
+    font-weight: 400;
+    color: #333;
+    font-size:22px;
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    }
+
+    
+    .contact-us-form{
+        border-radius: 5px;
+    padding-left: 30px;padding-right: 30px;
+    padding-bottom: 30px;padding-top:15px;
+    width: 100%;
+    background-color: #fafafa;
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
+    /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+    position: relative;
+    
+    border: 4px double #d6d7d9 !important;
+
+    }
+
+    .contact-us-form .contact-title{
+        color: #fff;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 21px;
+        text-transform: uppercase;
+        width: 100%;
+        font-family: "Open Sans";
+        margin-top: 4px;
+        position: absolute;
+        top: -27px;
+        left:0;
+        text-align: center;
+        letter-spacing: 2px;
+        /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+        background-color:#f8791b;
+    }
+
+    .form-group .upload-label{
+        font-family: "Open Sans";
+        color: #333;
+        font-size: 13px;
+    }
+    .form-group .upload-btn {
+    
+       font-size: 15px;
+      
+
+    }
+
+
+
+    .contact-us-form  .send-message{
+    font-family: "Open Sans";
+    font-weight:600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color:#f8791b;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+        display: block;
+        width:100%;
+
+    }
+
+    .contact-us-form .contact-form-control{
+    font-size: 14px;
+    color: #ffffff;
+    background: #f7f8f9;
+    border: 1px solid #c6c8ca;
+    border-radius: 1px;
+    font-family: "Open Sans";
+    padding-top: 8px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 100%;
+    }
+    .form-control .placeholder{
+    color: #333 !important;
+    }
+
+    .contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333 !important;
+    font-family: "Open Sans";
+    font-weight: 600;
+    opacity: 1; /* Firefox */
+    }
+
+    input, textarea{
+    color: #FFF;
+    }
+
+
+    .contact-us-form .select-title{
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 500;
+    }
+
+
+      
+
+    
+
+
+
+
+
+
+    /* -------------------  RESPOSNIVE DESGIN -------------------  */
+    
+      @media (max-width: 1079px) {
+
+          .main-navigation .nav-list .nav-link{
+            font-size: 11px;
+          }
+
+          #buy-txt-section .repair-content h2{
+            font-size: 24px;
+          }
+
+          .banner-call .call-left h4{
+            font-size: 18px;
+          }
+
+          .banner-call .call-left h5{
+            font-size: 26px;
+          }
+
+              .banner-call .call-left h5 span {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 26px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-shadow: 0px 1px #000;
+            border: 2px solid #fff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-left: 10px;
+            }
+
+            .demo-box .box-content h3{
+                font-size: 24px;
+            }
+
+            .info-left-side h2{
+                font-size: 26px;
+            }
+
+
+      }
+        
+
+
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+	
+
+    @media (max-width: 991px) {
+        
+       
+
+        #top-section .tx-box-1 h2{
+        font-size: 22px;
+        }
+
+        #top-section .tx-box-1 h4{
+        font-size: 17px;
+        }
+
+        .catagories-home li h6{
+        font-size: 13px;
+        }
+
+        .catagories-home li img{
+        width: 110px;height: 110px;
+        }
+
+        .banner-call .call-left h4{
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5{
+        font-size: 24px;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 24px;
+        }
+
+        .info-left-side h2{
+            font-size: 22px;
+        }
+
+        .info-left-side h3{
+            font-size: 19px;
+        }
+
+        .sell-right-side img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: none;
+
+        }
+
+        .info-left-side{
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .process-steps {
+        margin-bottom: 10px;
+        max-width: 230px;
+        background-color: #fafafa;
+        margin-right: 8px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        position: relative;
+        }
+
+        .process-steps h6{
+            font-size: 13px;
+        }
+
+        .process-steps p{
+            font-size: 11px;
+        }
+
+        .banner-cover-top .text-headline{
+            margin-top: 15px;
+        }
+
+        .banner-cover-top .text-headline h2 span{
+            font-size: 26px;
+        }
+
+        .banner-cover-top .text-headline h2{
+            font-size: 19px;
+        }
+
+
+        .gallery-content .pic-1{
+            width: 55%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #we-buy-section .tx-box h2{
+            font-size: 21px;
+        }
+
+        #we-buy-section .tx-box h4{
+            font-size: 17px;
+        }
+
+        #we-buy-section .title-box h2{
+            font-size: 19px;
+            text-align: center;
+        }
+
+        #we-buy-section .title-box p{
+            font-size: 13px;
+        }
+
+        .product-list li{
+            width: 25%;
+        }
+
+        .product-list li h6{
+            font-size: 14px;
+        }
+
+        #section-how-it-work .box-text-5 h2{
+            font-size: 24px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .headline-app{
+            font-size: 15px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description{
+            font-size: 14px;
+        }
+
+        #buy-txt-section .repair-content h2{
+            font-size: 25px;
+        }
+
+        .demo-box .box-content p{
+            font-size: 16px;
+        }
+
+        .section-how-it-work .box-text-6 h2{
+            font-size: 24px;
+        }
+
+        #location-hour .map-info .t-1{
+            font-size: 15px;
+        }
+
+        #location-hour .map-info a span{
+            font-size: 32px;
+        }
+
+        .service-info .open-hours li span{
+            font-size: 11px;
+        }
+
+        .service-info .open-hours li p{
+            font-size: 12px;
+        }
+
+
+    }  /* end  max widht 991px  */
+	
+
+   
+
+    @media (max-width: 767.98px) {
+
+
+
+        .process-steps{
+        max-width: 100%;
+        margin-bottom: 10px;
+        }
+
+        .process-steps img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 20%;
+        }
+
+        #top-section .tx-box-1 h2{
+        font-size: 19px;
+        }
+
+        #top-section .tx-box-1 h4{
+            font-size: 14px;
+        }
+        .catagories-home li{
+            width: 30%;
+        }
+
+        .banner-call .call-left h4 {
+        font-size: 13px;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-size: 20px;
+        }
+
+        .info-left-side p{
+            font-size: 13px;
+        }
+
+        .info-left-side h2 {
+        font-size: 20px;
+        }
+
+        #location-hour .map-info{
+            height: 225px;
+            margin-bottom: 30px;
+        }
+
+        #buy-txt-section .repair-content p{
+            font-size: 13px;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 21px;
+        }
+
+        .section-how-it-work .how-steps p{
+            font-size: 13px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description {
+        font-size: 13px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 23px;
+        }
+
+        .logo-left li a img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 23px;
+        }
+
+        .product-list li h6 {
+        font-size: 12px;
+        }
+
+        .product-list li img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85px;
+        height: 85px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 15px;
+        }
+
+        #we-buy-section .title-box h2 {
+        font-size: 17px;
+        text-align: center;
+        }
+
+
+
+	}   /* /End responsive Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+	
+
+        #home-section .text-area h2 span{
+            font-size: 24px;
+        }
+
+        #top-section .tx-box-1 h4 {
+        font-size: 12px;
+        }
+
+        .catagories-home li {
+        width: 45%;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 10px;
+        }
+
+        .info-left-side h2 {
+        font-size: 17px;
+        }
+
+        .info-left-side h3 {
+        font-size: 15px;
+        }
+
+        .info-left-side h6{
+        font-size: 14px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-shadow: 0px 1px #000;
+        border:none;
+        padding-left:3px;
+        padding-right:3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-right:0;
+        margin-left:0;
+        }
+
+               .banner-call .call-left h5 span a {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 16px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-shadow: 0px 1px #000;
+            border: 2px solid #fff;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            margin-right:5px;
+            margin-left: 5px;
+        }
+
+        .banner-call .call-left h5 span a .fa {
+    margin-left: 10px;
+    margin-right: 8px;
+    font-size: 18px;
+    color: #fff;
+}
+
+        .banner-call .call-left h5 span .fa {
+        margin-left: 4px;
+        margin-right: 7px;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 2px;
+        }
+
+        .banner-cover-top .text-headline h2 span {
+        font-size: 22px;
+        }
+
+        .banner-cover-top .text-headline h2 {
+        font-size: 17px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 14px;
+        }
+
+        .product-list li img{
+            width: 65px;
+            height: 65px;
+        }
+
+        .product-list li {
+        width: 33%;
+        }
+
+        .title-box h2 img {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        width: 15%;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 19px;
+        }
+
+        .section-how-it-work .how-steps .headline{
+        font-size: 14px;
+        }
+
+        .demo-box{
+        background-size: cover;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 14px;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 19px;
+        }
+
+
+	} /* end mobile responsive media querie*/
+
