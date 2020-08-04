@@ -346,13 +346,14 @@
     border: 4px double #d6d7d9 !important;
     margin-top: 25px;
     position: relative;
+    background-color: #3f64b5;
     }
 
     .home-services-top h3{
 
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        color: #333;
+        color: #fff;
         font-size: 25px;
         text-align: center;
         padding-bottom: 5px;
@@ -363,10 +364,10 @@
 
     .home-services-top h2{
         font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        color: #333;
+        font-weight: 400;
+        color: #fff;
         /* color: #3f64b5; */
-        font-size: 36px;
+        font-size: 34px;
         text-align: center;
         padding-bottom: 5px;
         width: 100%;
@@ -377,7 +378,7 @@
     .home-services-top  p{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        color: #333;
+        color: #fff;
         font-size: 17px;
         text-align: left;
         padding-bottom: 5px;
@@ -398,7 +399,7 @@
     font-weight: 600;
 
     color:#fff;
-    background-color:  #3f64b5; 
+    background-color:transparent; 
     font-size: 16px;
     text-align: center;
     margin-top:35px;
@@ -411,6 +412,7 @@
     width: 250px;
     padding-top: 13px;
     padding-bottom: 13px;
+    border: 2px solid #fff;
     }
 
     .inner-button:hover{
@@ -431,6 +433,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 
     }
 
@@ -1355,13 +1358,15 @@
 
     .other-main .in-box{
         border: 4px double #d6d7d9 !important;
-        padding: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;padding-right: 20px;
     }
 
     .ser-other .in-box p{
         font-weight: 400;
         color: #333;
-        font-size: 17px;
+        font-size: 14px;
         text-align: left;
         margin-top: 10px;
         margin-bottom:10px;
@@ -1373,15 +1378,31 @@
     .ser-other .in-box h3{
         font-weight: 600;
     color: #333;
-    font-size: 28px;
+    font-size: 22px;
     text-align: left;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+    }
+
+    .ser-other .in-box h6{
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
     padding-bottom: 0;
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
 
     }
+
 
     .ser-other {
         margin-bottom: 20px;
@@ -1394,6 +1415,87 @@
       
         float: left;
     }
+
+
+    .headline-text{
+        margin-top:20px;
+        margin-bottom:0;
+       
+        padding-bottom: 15px;
+        padding-left: 35px;padding-right: 35px;
+        
+        
+        }
+    
+        .headline-text h2{
+            font-size: 19px;
+        font-weight: 500;
+       
+        color: #fff;
+        text-align: center;
+  
+        margin-bottom:15px;
+        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #3f64b5;
+        padding-top: 7px;padding-bottom: 7px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    
+        }
+    
+        .headline-text h5{
+            font-weight: 300;
+            color: #999;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 25px;
+            margin-top: 0;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+        
+            }
+            .headline-text  p{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                color: #273a44;
+                font-size: 15px;
+                text-align: left;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 20px;
+            }
+        
+    
+            .btn-10-bottom {
+        font-weight: 600;
+        color: #fff;
+        background-color:#3f64b5;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+       
+        border-radius: 5px;
+        text-transform: uppercase;
+        }
+
+        .btn-10-bottom:hover{
+            color: #FFF;
+        }
+    
+
     
     
 	/* --------------- FOOTER STYLE -------------------  */ 
@@ -1807,9 +1909,15 @@
     padding-bottom: 25px;
     border: 4px double #d6d7d9 !important;
     background-color: #f9fafd;
-
+    position: relative;
     }
-
+    .header-inside .star-img {
+        position: absolute;
+        right:15px;
+        top: 20px;
+        width: 80px;
+        height: 80px;
+    }
     .header-inside img{
     display: block;
     float:right;
@@ -1821,11 +1929,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: #333;
-    font-size: 32px;
+    font-size: 30px;
     text-align: left;
     padding-bottom: 5px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 15px;
 
     }
@@ -1839,6 +1947,7 @@
     margin-bottom: 15px;
     padding-bottom: 0;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     }
 
     .header-inside p{
@@ -2132,7 +2241,106 @@
     }
 
 
+    .our-gallery{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .our-gallery .img-inside{
+        margin-bottom: 20px;
+    }
+
+    .our-gallery h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .our-gallery h4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 19px;
+        text-align: center;
+   
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top:0;
+    }
+
+
+        
+    .price-banner{
+        padding-top: 30px;
+        padding-bottom: 30px;
+       /* background: linear-gradient(to right, #00d2ff, #3a7bd5);*/
       
+        background-size: cover;
+        background-image: url(../img/blur.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        background-color: #3f64b5;
+        margin-top: 40px;
+    }
+
+    .price-banner .star-img{
+        position: absolute;
+        right: 0;
+        top: -15px;
+        width: 80px;
+        height: 80px;
+    }
+    .price-banner h2{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        color:#3f64b5;
+        /* color: #3f64b5; */
+        font-size: 34px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    
+    .price-banner h3{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        color:#3f64b5;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-bottom: 30px;  
+    }
+
+    .price-banner .btn-pr{
+                font-weight: 600;
+        color: #fff;
+        background-color: #3f64b5;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        font-family: 'Mulish', sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: 2px solid #fff;
+    }
 
     
 
