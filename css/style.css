@@ -1565,6 +1565,11 @@
             margin-right: 10px;
             margin-bottom: 10px;
             }
+
+            .social-footer li a img{
+                margin-right: 10px;
+                margin-bottom: 15px;
+            }
         
             .social-footer li p{
             font-family: 'Roboto', sans-serif;
@@ -2249,9 +2254,9 @@
 
     
     .map{
-        margin-top: 100px;
+        margin-top: 80px;
         display: block;
-        border-top: 1px solid #eee;
+      
         padding-top: 20px;
         
         
