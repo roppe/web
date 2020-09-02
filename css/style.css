@@ -1366,7 +1366,7 @@
     .ser-other .in-box p{
         font-weight: 400;
         color: #333;
-        font-size: 14px;
+        font-size: 15px;
         text-align: left;
         margin-top: 10px;
         margin-bottom:10px;
@@ -1380,8 +1380,9 @@
     color: #333;
     font-size: 22px;
     text-align: left;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
     padding-bottom: 0;
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
@@ -1393,9 +1394,9 @@
     .ser-other .in-box h6{
     font-weight: 600;
     color: #333;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 0;
     font-family: 'Roboto', sans-serif;
@@ -1463,9 +1464,9 @@
                 font-family: 'Roboto', sans-serif;
                 font-weight: 400;
                 color: #273a44;
-                font-size: 15px;
+                font-size: 16px;
                 text-align: left;
-                border-bottom: 1px solid #eee;
+                
                 padding-bottom: 20px;
             }
         
@@ -1960,7 +1961,7 @@
     }
 
     .header-inside p{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     color: #333;
     font-size: 15px;
