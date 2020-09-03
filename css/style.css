@@ -1714,6 +1714,12 @@
         font-size: 11px;
       
         }
+
+        .map-img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
     
 
