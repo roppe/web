@@ -11,7 +11,7 @@
     .navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
     display: block !important;
-    color: #e69906!important;
+    color: #3f64b5!important;
     border:0;
     }
 
@@ -1705,6 +1705,15 @@
         letter-spacing: 1px;
         margin-bottom: 3px;
         }
+
+        .sub-footer .copy a {
+            font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #d5d2d2 !important;
+       
+        font-size: 11px;
+      
+        }
     
     
 
@@ -2460,6 +2469,255 @@
         
        
 
+        .home-info h2{
+            font-size: 22px;
+        }
+
+        .home-info h3{
+            font-size: 14px;
+        }
+
+        .hm-inner h2{
+            font-size: 31px;
+        }
+
+        .hm-inner p{
+            font-size: 15px;
+        }
+
+        .home-services-top img {
+            display: block !important;
+     
+            margin-left: auto !important;
+            margin-right: auto !important;
+         
+        }
+
+        #info-description {
+            padding-top: 10px;
+            padding-bottom: 35px;
+        }
+
+        .home-services-top h2{
+            font-size: 28px;
+        }
+
+        .home-services-top h3{
+            font-size: 21px;
+        }
+
+        #section-services {
+            padding-top: 20px;
+            padding-bottom: 25px;
+            border-top: 1.5px solid #eee;
+            border-bottom: 1.5px solid #eee;
+            background-color: #fafafa;
+        }
+
+        .home-services-top p{
+            font-size: 15px;
+        }
+
+        #section-services .left-one .t-1{
+            font-size: 28px;  
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        #section-services .left-one p{
+            font-size: 15px;
+        }
+
+        .left-one .btn-5{
+            font-size: 14px;
+            width: 200px;
+            margin-top: 20px;
+            float:none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .other-list {
+            list-style-type: none;
+            padding-left: 15px;
+            margin-top: 0;
+        }
+
+        .price-banner h3{
+            font-size: 16px;
+        }
+
+        .price-banner h2{
+            font-size: 29px;
+        }
+
+        .price-banner .btn-pr {
+            font-size: 15px;
+        }
+
+        .info-service h2{
+            font-size: 25px;
+        }
+
+        .header-inside h2{
+            font-size: 20px;
+        }
+
+        .header-inside{
+            padding-left: 15px;
+        }
+
+        .header-inside p{
+            font-size: 14px;
+        }
+
+        .process-text h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .process-text h5{
+            font-size: 13px;
+            padding-left: 0;
+        }
+
+        .process-text h2 img {
+            display: block;
+            margin-right: 10px;
+            float: left;
+            margin-top: -8px;
+            
+        }
+
+        #header-services{
+            padding-right: 0;
+        }
+
+        .ser-other .in-box h6 {
+            font-weight: 600;
+            color: #333;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+       
+        }
+
+        .headline-text h2{
+            width: 100%;
+            font-size: 16px;
+        }
+
+        #faq-top h2{
+            font-size: 26px;
+        }
+
+        .qu-an h3{
+            font-size: 15px;
+        }
+
+        .qu-an {
+            padding: 15px;
+            border: 4px double #d6d7d9 !important;
+            margin-bottom: 20px;
+        }
+
+        .qu-an p{
+            font-size: 14px;
+        }
+
+        #contact-top h2{
+            font-size: 28px;
+        }
+
+        .adress-nav li a{
+            font-size: 15px;
+        }
+
+        .adress-nav {
+            list-style-type: none;
+            float: right;
+            padding-left: 0;
+        }
+
+        .social-footer h3{
+            width: 100%;
+        }
+
+        #contact-top h3{
+            font-size: 18px;
+        }
+
+        .headline-text p{
+            font-size: 14px;
+        }
+
+        .ser-other .in-box p{
+            font-size: 14px;
+        }
+
+        .ser-other .in-box h3{
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        .header-inside h6 {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+            text-align: left;
+            padding-left:0px;
+        }
+
+        .process-text h5 .fa {
+            color: #3f64b5;
+            margin-right: 3px;
+            font-size: 9px;
+            vertical-align: 1px;
+        }
+
+        .info-service h6 {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        .other-list li {
+            display: inline-block;
+            width: 46%;
+            margin-bottom: 15px;
+            margin-right: 15px;
+        }
+
+        .other-list li h3{
+            font-size: 16px;
+        }
+
+        .our-gallery {
+            padding-top: 10px;
+            padding-bottom: 35px;
+        }
+
+        .our-gallery h2{
+            font-size: 28px; 
+        }
+
+        .home-info h6 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #fff;
+            font-size: 15px;
+            text-align: left;
+            padding-left: 10px;
+        }
+
         #top-section .tx-box-1 h2{
         font-size: 22px;
         }
@@ -2468,14 +2726,7 @@
         font-size: 17px;
         }
 
-        .catagories-home li h6{
-        font-size: 13px;
-        }
-
-        .catagories-home li img{
-        width: 110px;height: 110px;
-        }
-
+      
         .banner-call .call-left h4{
         font-size: 17px;
         }
@@ -2510,24 +2761,7 @@
             padding-top: 20px;
         }
 
-        .process-steps {
-        margin-bottom: 10px;
-        max-width: 230px;
-        background-color: #fafafa;
-        margin-right: 8px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 40px;
-        position: relative;
-        }
-
-        .process-steps h6{
-            font-size: 13px;
-        }
-
-        .process-steps p{
-            font-size: 11px;
-        }
+   
 
         .banner-cover-top .text-headline{
             margin-top: 15px;
@@ -2549,70 +2783,9 @@
             margin-left: auto;
         }
 
-        #we-buy-section .tx-box h2{
-            font-size: 21px;
-        }
+  
 
-        #we-buy-section .tx-box h4{
-            font-size: 17px;
-        }
-
-        #we-buy-section .title-box h2{
-            font-size: 19px;
-            text-align: center;
-        }
-
-        #we-buy-section .title-box p{
-            font-size: 13px;
-        }
-
-        .product-list li{
-            width: 25%;
-        }
-
-        .product-list li h6{
-            font-size: 14px;
-        }
-
-        #section-how-it-work .box-text-5 h2{
-            font-size: 24px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .headline-app{
-            font-size: 15px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .text-description{
-            font-size: 14px;
-        }
-
-        #buy-txt-section .repair-content h2{
-            font-size: 25px;
-        }
-
-        .demo-box .box-content p{
-            font-size: 16px;
-        }
-
-        .section-how-it-work .box-text-6 h2{
-            font-size: 24px;
-        }
-
-        #location-hour .map-info .t-1{
-            font-size: 15px;
-        }
-
-        #location-hour .map-info a span{
-            font-size: 32px;
-        }
-
-        .service-info .open-hours li span{
-            font-size: 11px;
-        }
-
-        .service-info .open-hours li p{
-            font-size: 12px;
-        }
+     
 
 
     }  /* end  max widht 991px  */
@@ -2621,6 +2794,102 @@
    
 
     @media (max-width: 767.98px) {
+
+        
+
+        .header-inside img {
+            display: block;
+            float: none;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        .header-inside h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .header-inside h3{
+            text-align: center;    
+        }
+
+        .process-text{
+            margin-bottom: 30px;
+        }
+
+        .process-text h5 {
+            font-size: 14px;
+            padding-left: 0;
+        }
+
+        .ser-other img {
+            display: block;
+            float: none;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        .headline-text {
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+
+        .home-services-top h2 {
+            font-size: 22px;
+        }
+
+        .our-gallery h2 {
+            font-size: 25px;
+        }
+
+        #section-services .left-one .t-1 {
+            font-size: 23px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .adress-nav {
+            list-style-type: none;
+            float: left;
+            padding-left: 0;
+            width: 85%;
+            display: block;
+            margin-left: auto;
+            margin-bottom: auto;
+        }
+
+        .adress-nav li {
+            display: block;
+            float: left;;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .social-footer {
+       
+           padding-left: 0;
+            list-style-type: none;
+            width: 100%;
+            display: block !important;
+            margin-left: auto;
+            margin-bottom: auto
+        }
+
+        .social-footer li {
+            display: block;
+            margin-right: 25px;
+            margin-bottom: 10px;
+            float: left;
+        }
+
+        .social-footer h3 {
+            display: none;
+        }
+
+
 
 
 
@@ -2734,10 +3003,108 @@
 
 	
 	@media (max-width: 575.98px) { 
-	
+        
+      
+
+        .home-services-top{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .home-services-top h3 {
+            font-size: 19px;
+        }
+
+        .our-gallery h4{
+            font-size: 16px;
+        }
+
+        #section-services .left-one .t-1 {
+            font-size: 20px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .other-list li {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+            margin-right:0;
+        }
+
+        .price-banner h2 {
+            font-size: 23px;
+        }
+
+        .info-service {
+            padding-left: 15px;
+            padding-top: 25px;
+            padding-right: 0;
+            padding-bottom: 25px;
+            border: 4px double #d6d7d9 !important;
+        }
+
+        .info-service img {
+            display: block;
+            float: none;
+            margin-left:0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .info-service h2 {
+            font-size: 22px;
+        }
+
+        .social-footer li {
+            display: block;
+            margin-right: 0;
+            margin-bottom: 10px;
+            float: left;
+        }
+
+        .sub-footer .copy{
+            font-size: 14px;
+        }
+
+        .sub-footer .copy a{
+            font-size: 14px;
+            color: #fafafa;
+        }
 
         #home-section .text-area h2 span{
             font-size: 24px;
+        }
+
+        .process-text h5 .fa {
+            color: #3f64b5;
+            margin-right: 7px;
+            font-size: 9px;
+            vertical-align: 1px;
+        }
+
+        .top-other {
+            padding-top: 10px;
+            padding-bottom: 35px;
+        }
+
+        .other-main .in-box {
+            border: 4px double #d6d7d9 !important;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #faq-top h2 {
+            font-size: 23px;
+        }
+        #faq-top h3{
+            font-size: 18px;
+        }
+
+        .ser-other .in-box h6{
+            font-size: 14px;
         }
 
         #top-section .tx-box-1 h4 {
